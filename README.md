@@ -1,20 +1,18 @@
-# Welcome!
+# 소개
 
-## Welcome to MyAPI
+## SlickGrid
 
-Welcome to MyAPI! Here you'll find all the documentation you need to get up and running with the MyAPI API.
+SlickGrid는 자바스크립트 그리드/스프레드시트 컴포넌트 입니다.
 
-## Want to jump right in?
+영문으로 작성된 APIReference를 한글로 번역합니다.
 
-Feeling like an eager beaver? Jump in to the quick start docs and get making your first request:
+## 빠른 시작
 
 {% content-ref url="quick-start.md" %}
 [quick-start.md](quick-start.md)
 {% endcontent-ref %}
 
-## Want to deep dive?
-
-Dive a little deeper and start exploring our API reference to get an idea of everything that's possible with the API:
+## 상세 정보 얻기
 
 {% content-ref url="reference/api-reference/" %}
 [api-reference](reference/api-reference/)
