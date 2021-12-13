@@ -1,7 +1,7 @@
 # Table of contents
 
 * [소개](README.md)
-* [Quick Start](quick-start.md)
+* [시작하기](quick-start.md)
 
 ## Reference
 
