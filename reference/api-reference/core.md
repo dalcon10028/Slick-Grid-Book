@@ -14,7 +14,7 @@
 
 인덱스에 해당하는 아이템을 반환합니다.
 
-```javascript
+```jsx
 // Get the id of the 15th item
 var id15 = grid.getDataItem(14).id;
 ```
@@ -31,7 +31,7 @@ var id15 = grid.getDataItem(14).id;
 
 데이터 바인딩 소스의 크기를 반환합니다.
 
-```javascript
+```jsx
 // 모든 데이터 목록에서 아이디만 추출해 배열 생성
 const ids = [];
 for (let i=0; i < grid.getDataLength(); i++) {
@@ -43,7 +43,7 @@ for (let i=0; i < grid.getDataLength(); i++) {
 
 그리드에 설정된 모든 옵션을 포함하는 객체를 반환합니다. [그리드 옵션 목록보기](https://github.com/6pac/SlickGrid/wiki/Grid-Options)
 
-```javascript
+```jsx
 // 현재 선택된 모든 요소 찾기
 const $selectedCells = $('.' + grid.getOptions().selectedCellCssClass);
 ```
@@ -62,7 +62,7 @@ const $selectedCells = $('.' + grid.getOptions().selectedCellCssClass);
 
 지정된 해시를 사용하여 그리드 옵션을 확장합니다. 편집중인 셀이 있는 경우, 그리드는 변경 사항을 커밋하려고 시도하고 성공할 경우에만 계속합니다.
 
-```javascript
+```jsx
 // 선택한 셀에 대해 새 CSS 클래스 설정
 grid.setOptions( { selectedCellCssClass: "newSelection" } );
 
@@ -79,7 +79,7 @@ $('.newSelection');
 
 행의 인덱스 배열을 매개변수로 받아 `selectable`플래그 여부에 따라 현재 선택된 `selectedCellCssClass`를 셀에 적용합니다.
 
-```javascript
+```jsx
 // 처음 세 줄을 선택
 grid.setSelectedRows([0, 1, 2]);
 ```
