@@ -1,23 +1,39 @@
+---
+description: 상세 정보 얻기
+---
+
 # API Reference
 
-Dive into the specifics of each API endpoint by checking out our complete documentation.
+## Constructor
 
-## Pets
+그리드 인스턴스 생성
 
-All the methods associated with `CRUD`ing some pets. Which isn't as weird as it sounds:
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="constructor.md" %}
+[constructor.md](constructor.md)
 {% endcontent-ref %}
 
-## Users
+## Core
 
-Everything related to users:
+그리드 컨트롤 코어
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="core.md" %}
+[core.md](core.md)
 {% endcontent-ref %}
 
-{% hint style="info" %}
-**Good to know:** Using the 'Page Link' block lets you link directly to a page. If this page's name, URL or parent location changes, the reference will be kept up to date. You can also mention a page – like [Broken link](broken-reference "mention") – if you don't want a block-level link.
-{% endhint %}
+## Columns
+
+{% content-ref url="columns.md" %}
+[columns.md](columns.md)
+{% endcontent-ref %}
+
+## Cells
+
+{% content-ref url="cells.md" %}
+[cells.md](cells.md)
+{% endcontent-ref %}
+
+## Rendering
+
+{% content-ref url="rendering.md" %}
+[rendering.md](rendering.md)
+{% endcontent-ref %}
