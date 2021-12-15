@@ -13,7 +13,9 @@
 }
 ```
 
-Adds an "overlay" of CSS classes to cell DOM elements. SlickGrid can have many such overlays associated with different keys and they are frequently used by plugins. For example, SlickGrid uses this method internally to decorate selected cells with selectedCellCssClass (see options).
+CSS 클래스에 "overlay"를 셀 DOM element에 추가합니다. SlickGrid는 서로 다른 키와 관련된 많은 오버레이를 가질 수 있으며 플러그인에 의해 종종 사용됩니다.
+
+예를 들어, SlickGrid는 내부적으로 이 방법을 사용하여 선택한 셀을 SelectedCssClass로 장식합니다. (옵션 참조)
 
 #### grid.**canCellBeActive**(_row, col_)
 

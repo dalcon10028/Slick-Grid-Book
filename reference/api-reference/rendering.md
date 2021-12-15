@@ -109,7 +109,7 @@ grid.render();
 
 #### grid.**render**()
 
-Rerenders rows in the DOM.
+DOM에 SlickGrid를 렌더링 합니다.
 
 #### grid.**resizeCanvas**()
 
